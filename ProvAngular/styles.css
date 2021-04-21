@@ -1,0 +1,86 @@
+#back {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(197, 197, 197);
+  border-radius: 10px;
+  border-style: solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+#top {
+  background-color: rgb(52, 52, 182);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  overflow: auto;
+}
+
+label {
+  font-size: 20px;
+}
+
+#insert {
+  display: inline-flex;
+}
+
+#add {
+  position: absolute;
+  left: 79%;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+#remove {
+  size: auto;
+  width: 40px;
+  height: 35px;
+}
+
+#modify {
+  size: auto;
+  width: 40px;
+  height: 35px;
+}
+
+#confirm {
+  size: auto;
+  width: 40px;
+  height: 35px;
+}
+
+#return {
+  size: auto;
+  width: 40px;
+  height: 35px;
+}
+
+#bottom {
+  height: auto;
+  border-style: solid;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-color: rgb(52, 52, 182);
+}
+
+#list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border-top: 1px solid #ddd;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 25px;
+  padding-right: 30px;
+}
+
+#action {
+  display: inline-flex;
+}

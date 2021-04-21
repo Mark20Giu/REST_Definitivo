@@ -1,0 +1,7 @@
+{
+    "/student": {
+      "target": "http://localhost:8000/student.php",
+      "secure": false, "changeOrigin": true,
+      "logLevel": "debug"
+    }
+}
